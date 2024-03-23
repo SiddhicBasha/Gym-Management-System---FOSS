@@ -1,0 +1,84 @@
+<html>
+	<head>
+		<style>
+			label {
+            			margin-right: 20px;
+				line-height: 3.5;
+				color: white;
+        		}
+			body {
+            			background-image: url('file:///C:/xampp/htdocs/FOSS/Screenshot%20(2).png'); /* URL of your image */
+            			background-size: cover; /* Scale the image to cover the entire element */
+            			background-position: center; /* Position the image in the center */
+            			background-repeat: no-repeat; /* Prevent image repetition */
+        		}
+			h1 {
+            			color: white;
+        		}
+			p {
+            			color: white;
+       			}
+			button[type="submit"] {
+  				background-color: #3498db;
+  				color: white;
+  				padding: 5px 10px;
+  				border-radius: 5px;
+  				cursor: pointer;
+  				font-size: 16px;
+				font-align: center;
+			}
+			.custom-input::placeholder {
+  				color: white; /* Change the color to your desired color */
+			}
+			.form-box {
+            			border: 1px solid white;
+				color: white;
+            			background-color: transparent;
+            			padding: 5px;
+            			width: 800px;
+            			margin: 0 auto; /* Center the box horizontally */
+            			border-radius: 4px;
+			}
+			.form-box form input[type="submit"] {
+            			background-color: white;
+            			color: white;
+           			border: none;
+            			border-radius: 4px;
+            			padding: 10px;
+            			cursor: pointer;
+        		}
+
+			/* Style the form elements */
+		        .form-box form input[type="text"],
+			.form-box form input[type="date"],
+			.form-box form input[type="radio"],
+			.form-box form input[type="checkbox"],
+        		.form-box form input[type="email"] {
+				color: white; 
+          			width: 10%;
+           			padding: 10px;
+            			margin: 5px 0;
+            			border: 1px solid #ccc;
+            			border-radius: 4px;
+        		}
+ 			body {
+            			line-height: 2.5; /* Adjust the line height as needed */
+        		}
+			input[type="text"] {
+    				width: 50%; /* 50% of the parent container's width */
+			}
+			input[type="email"] {
+    				width: 30%; /* 50% of the parent container's width */
+			}
+			input[type="date"] {
+    				width: 20%; /* 50% of the parent container's width */
+			}
+			input[type="ht"] {
+    				width: 20%; /* 50% of the parent container's width */
+			}
+			input[type="wt"] {
+    				width: 20%; /* 50% of the parent container's width */
+			}
+		</style>
+	</head>
+</html>

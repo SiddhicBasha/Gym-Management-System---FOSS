@@ -1,0 +1,59 @@
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="page1style.css">
+	</head>
+	<body style="background-image: url(./Screenshot\ \(2\).png); background-size: cover;">
+	<a href="./page2.html"><button>Filter</button></a>
+	<form action="./process.php" method="post">
+		<div class="form-box">
+    			<h1>PERSONAL DETAILS</h1>
+    			<p>Please fill the information asked below</p>
+    			<hr>
+
+	    		<label for="name"><b>NAME:</b></label>
+	    		<input type="text" class="form-box custom-input" placeholder="Enter person name" name="name" id="name"><br>
+	
+			<label for="dob"><b>Date Of Join:</b></label>
+	        	<input type="date" class="form-box custom-input" placeholder="Enter dob" id="dob" name="dob"><br>
+	
+    			<label for="email"><b>EMAIL:</b></label>
+    			<input type="email" class="form-box custom-input" placeholder="Enter email			@gmail.com" name="email" id="email"><br>
+	
+	    		<label for="gender"><b>GENDER:</b></label>
+	    		
+			<input type="radio" id="male" name="gender" value="male">
+	        	<label for="male">M</label>
+	
+	        	<input type="radio" id="female" name="gender" value="female">
+	        	<label for="female">F</label>
+	
+	        	<input type="radio" id="other" name="gender" value="other">
+	        	<label for="other">Other</label><br>
+
+			<label for="weight"><b>BODY WEIGHT:</b></label>
+	    		<input type="wt" class="form-box custom-input" placeholder="Enter body weight" name="weight" id="weight" ><br>
+
+			<label for="height"><b>BODY HEIGHT:</b></label>
+	    		<input type="ht" class="form-box custom-input" placeholder="Enter body height" name="height" id="height" ><br>
+
+			<label for="program"><b>PROGRAM:</b></label>
+			<select id="program" name="program" id="program">
+            		<option value="daily">Daily</option>
+            		<option value="monthly">Monthly</option>
+           		<option value="yearly">Yearly</option></select><br>
+
+			<label for="plan"><b>PLAN:</b></label>
+	    		<input type="plan" class="form-box custom-input" placeholder="Enter plan" name="plan" id="plan"><br>			
+
+	    		<hr>
+	
+	    		<p><input type="checkbox" id="cheked" name="cheked" value="checked">
+			Given details are correct and verified</p>
+					
+
+	    		<button type="submit" class="registerbtn">Submit</button>
+	  	</div>	
+	  	
+	</form>
+</body>
+</html>
